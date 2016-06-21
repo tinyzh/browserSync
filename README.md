@@ -1,3 +1,4 @@
+#browserSync gulp 配置 自定义域名访问
 #安装
 >npm install --save-dev browser-sync
 
