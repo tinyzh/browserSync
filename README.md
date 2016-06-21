@@ -20,11 +20,12 @@ gulp.task('browser-sync', function() {    browserSync.init({});});
 gulp.task("default",function(){    gulp.start(["watchLess","watchJs","browser-sync","html"]);});
 ```
 #网站里面加上公共代码  具体代码需要查看控制台输出
+![Paste_Image.png](http://upload-images.jianshu.io/upload_images/215275-cdf5b58828cba457.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ```
 <script id="__bs_script__">document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.2.13.0.js'><\/script>".replace("HOST", location.hostname));</script>
 ```
 
 ##然后就可以通过自己本地配置的域名进行访问了
-具体网站配置文件
-[配置代码]()
+具体网站配置文件  请查看gulpfile.js
+
 
