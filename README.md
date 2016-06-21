@@ -29,4 +29,8 @@ gulp.task("default",function(){    gulp.start(["watchLess","watchJs","browser-sy
 ##然后就可以通过自己本地配置的域名进行访问了
 具体网站配置文件  请查看gulpfile.js
 
+#如果想同时监听多个网站  就需要更改默认端口号  相应的网站里面引入文件的端口号也要改
 
+![Paste_Image.png](http://upload-images.jianshu.io/upload_images/215275-0318205d92ba6e6b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+>gulp.task('browser-sync', function() {    browserSync.init({        port:3002    });});
