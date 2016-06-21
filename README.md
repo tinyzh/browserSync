@@ -3,7 +3,7 @@
 >npm install --save-dev browser-sync
 
 #引入
->var browserSynv = require('browser-sync').create();
+>var browserSync = require('browser-sync').create();
 var reload = browserSync.reload;
 
 ##监听模板
